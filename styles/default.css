@@ -1,0 +1,79 @@
+/* BASE CSS RECONFIG */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    --background-white: #F8F8F8;
+    --primary: #10458C;
+    --secondary: #FA991C;
+    --text-white: #FEFEFE;
+    --text-black: #050505;
+    --red-detail: #FF3931;
+}
+
+
+/* BODY CONFIG */
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background-white);    
+}
+main{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* FLEX PREFAB TAGS */
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.jcenter{
+    justify-content: center;
+}
+.jbetween{
+    justify-content: space-between;
+}
+.jaround{
+    justify-content: space-around;
+}
+.jstart{
+    justify-content: flex-start;
+}
+.jend{
+    justify-content: flex-end;
+}
+.acenter{
+    align-items: center;
+}
+.jstart{
+    align-items: flex-start;
+}
+.jend{
+    align-items: flex-end;
+}
+
+
+/* TEXT PREFAB TAGS */
+.text1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.text2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.text3{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.text4{
+    font-size: 1rem;
+    font-weight: 400;
+}
