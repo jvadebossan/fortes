@@ -32,7 +32,7 @@
                 </div>
                 <div class="input_box">
                     <p class="text4">Telefone da ONG</p>
-                    <input class="input_text" type="tel" name="telefone" id="phone">
+                    <input class="input_text" type="number" name="telefone" id="phone">
                 </div>
                 <div class="input_box">
                     <p class="text4">CEP</p>
@@ -52,10 +52,11 @@
                 </div>
             </div>
             <br>
-           <input class="btn" type="button" value="Enviar solicitação" onclick="ongRequest()">
+           <input class="btn" type="button" value="Enviar solicitação" id="submit" onclick="addOng()">
         </section>
         <img src="../src/fortes_bg.png" class="login_bg" alt="Background Image"/>
     </main>
 <script src="../scripts/auth.js"></script>
+<script src="../scripts/crud.js"></script>
 </body>
 </html>
