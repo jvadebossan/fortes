@@ -8,11 +8,34 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/default.css">
-    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="../styles/login.css">
 </head>
 <body>
-    <main class="jcenter acenter column">
-        <p>teste</p>
+    <main class="row jcenter acenter">
+        <section class="login_box column astart jcenter">
+            <h1 class="text1">Bem Vindo!</h1>
+            <h2 class="text3">Entre no painel de administrador</h2>
+            <br>
+            <p class="text4">Login</p>
+            <input class="input_text" type="email" name="email" id="email">
+            <br>
+            <p class="text4">Login</p>
+            <input class="input_text" type="password" name="password" id="password">
+            <br>
+            <div class="radio row jbetween astart">
+                <div class="row jcenter acenter">
+                    <input type="radio" name="remember" id="remember">
+                    <label style="margin-left: 10px;" for="remember">Lembrar</label>
+                </div>
+                <div class="row jcenter acenter">
+                    <a href="../index.html">Esqueceu a senha?</a>
+                </div>
+            </div>
+            <br>
+            <input class="btn" type="button" value="Login" onclick="login()">
+            <br>
+        </section>
+        <img src="../src/fortes_bg.png" class="login_bg" alt="Background Image"/>
     </main>
 <script src="../scripts/auth.js"></script>
 </body>

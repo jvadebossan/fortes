@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/login.css">
+    <link rel="stylesheet" href="../styles/edital.css">
+</head>
+<body>
+    <main class="row jcenter acenter">
+        <section class="login_box edital_box column astart jcenter">
+            <h1 class="text1">Bem Vindo!</h1>
+            <h2 class="text3 row jstart astart"> Baixe o edital e após ler envie a solicitação para participar.</h2>
+            <a class="edital text4" href="../src/edital.pdf" download>Clique para baixar</a>
+            <div class="inputs row jbetween astart">
+                <div class="input_box">
+                    <p class="text4">CNPJ</p>
+                    <input class="input_text" type="number" name="cnpj" id="cnpj">
+                </div>
+                <div class="input_box">
+                    <p class="text4">Nome da ONG</p>
+                    <input class="input_text" type="text" name="nome" id="name">
+                </div>
+                <div class="input_box">
+                    <p class="text4">Email da ONG</p>
+                    <input class="input_text" type="email" name="email" id="email">
+                </div>
+                <div class="input_box">
+                    <p class="text4">Telefone da ONG</p>
+                    <input class="input_text" type="tel" name="telefone" id="phone">
+                </div>
+                <div class="input_box">
+                    <p class="text4">CEP</p>
+                    <input class="input_text" type="number" name="cep" id="cep">
+                </div>
+                <div class="input_box">
+                    <p class="text4">Bairro</p>
+                    <input class="input_text" type="text" name="bairro" id="block">
+                </div>
+                <div class="input_box">
+                    <p class="text4">Número</p>
+                    <input class="input_text" type="number" name="numero" id="number">
+                </div>
+                <div class="input_box">
+                    <p class="text4">Senha</p>
+                    <input class="input_text" type="password" name="password" id="password">
+                </div>
+            </div>
+            <br>
+           <input class="btn" type="button" value="Enviar solicitação" onclick="ongRequest()">
+        </section>
+        <img src="../src/fortes_bg.png" class="login_bg" alt="Background Image"/>
+    </main>
+<script src="../scripts/auth.js"></script>
+</body>
+</html>

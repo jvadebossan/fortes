@@ -1,0 +1,47 @@
+.login_box{
+    width: 100%;
+    height: 100%;
+    flex: 2;
+    padding: 50px 70px;
+}
+
+.login_bg{
+    width: 100%;
+    height: 100%;
+    flex: 1;
+}
+.login_box h1,h2,h3,a,p{
+    color: var(--primary)
+
+}
+
+.login_box input{
+    width: 50%;
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid var(--secondary);
+    border-radius: 360px;
+    outline: none;
+}
+.login_box .input_text{
+    padding-left: 10px;
+}
+.login_box .btn{
+    width: 50%;
+    height: 45px;
+    background-color: var(--primary);
+    color: var(--secondary);
+    border-radius: 360px;
+    border: 0px solid;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.radio{
+    width: 50%;
+}
+.radio div{
+    height: 50px;
+}
