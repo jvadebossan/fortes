@@ -45,3 +45,15 @@
 .radio div{
     height: 50px;
 }
+
+.signup_box{
+    width: 50%;
+}
+
+.signup{
+    width: 40% !important;
+    background-color: var(--secondary) !important;
+    color: var(--primary) !important;
+    text-align: center;
+    text-decoration: none;
+}

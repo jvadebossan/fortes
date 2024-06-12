@@ -10,16 +10,16 @@
     <link rel="stylesheet" href="../styles/default.css">
     <link rel="stylesheet" href="../styles/login.css">
 </head>
-<body>
+<body onload="isAuthenticated()">
     <main class="row jcenter acenter">
         <section class="login_box column astart jcenter">
             <h1 class="text1">Bem Vindo!</h1>
-            <h2 class="text3">Entre no painel de administrador</h2>
+            <h2 class="text3">Entre na sua conta</h2>
             <br>
-            <p class="text4">Login</p>
+            <p class="text4">Email</p>
             <input class="input_text" type="email" name="email" id="email">
             <br>
-            <p class="text4">Login</p>
+            <p class="text4">Senha</p>
             <input class="input_text" type="password" name="password" id="password">
             <br>
             <div class="radio row jbetween astart">
@@ -34,6 +34,9 @@
             <br>
             <input class="btn" type="button" value="Login" onclick="login()">
             <br>
+            <div class="signup_box row jcenter acenter">
+                <a href="./edital.html" class="btn signup row jcenter acenter">Criar conta</a>
+            </div>
         </section>
         <img src="../src/fortes_bg.png" class="login_bg" alt="Background Image"/>
     </main>

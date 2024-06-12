@@ -4,6 +4,19 @@ function checkAuth(){
     auth ? null : window.location.href = '/pages/login.html';
 }
 
+//redirect to admin/user page if already authenticated
+function isAuthenticated(){
+    const auth = localStorage.getItem('auth');
+    auth ? window.location.href = `/pages/${auth}.html` : null; 
+}
+
+//logout function
+function logout(){
+    //remove auth and redirect to login page
+    localStorage.removeItem('auth');
+    window.location.href = '/pages/login.html';
+}
+
 //login function
 function login(){
     //get email and password input values
@@ -11,9 +24,14 @@ function login(){
     const password = document.getElementById('password').value;
 
     //check if email and password are correct
-    if(email === 'admin' && password === '1234'){
+    if(email === 'admin@email.com' && password === '1234'){
         //set auth to true and redirect to admin page
-        localStorage.setItem('auth', true);
+        localStorage.setItem('auth', 'admin');
         window.location.href = '/pages/admin.html';
+    }
+    if(email === 'user@email.com' && password === '1234'){
+        //set auth to true and redirect to admin page
+        localStorage.setItem('auth', 'user');
+        window.location.href = '/pages/user.html';
     }
 }
