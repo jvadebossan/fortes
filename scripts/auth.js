@@ -1,7 +1,8 @@
 //redirect to login page if not authenticated
 function checkAuth(){
     const auth = localStorage.getItem('auth');
-    auth ? null : window.location.href = '/pages/login.html';
+    const actualPage = window.location.href.split('/').pop().split('.')[0];
+    auth === actualPage ? null : window.location.href = '/pages/login.html';
 }
 
 //redirect to admin/user page if already authenticated

@@ -8,10 +8,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/default.css">
-    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="../styles/dashboard.css">
 </head>
-<body onload="checkAuth()">
-    
+<body class="flex row acenter center" onload="checkAuth()">
+    <div class="menu">
+    </div>
+    <main class="row jcenter acenter">
+        <div class="card column jcenter acenter">
+            <p class="text2">Doações</p>
+            <p class="text4">Valor total arrecadado</p>
+        </div>
+        <div class="card column jcenter acenter">
+            <p class="text2">Planilha</p>
+            <p class="text4">Para registrar os valores destinados das doações</p>
+        </div>
+        <div class="card column jcenter acenter">
+            <p class="text2">Mensagens</p>
+            <p class="text4">Contato direto com a Fortes</p>
+        </div>
+    </main>
 <script src="../scripts/auth.js"></script>
 </body>
 </html>
