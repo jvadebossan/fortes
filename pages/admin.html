@@ -8,12 +8,62 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/default.css">
-    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="../styles/dashboard.css">
 </head>
-<body onload="checkAuth()">
-    
+<body class="flex row acenter center" onload="checkAuth()">
+    <div class="menu">
 
-    
+        <aside>
+            <p id="fortesmov"> Fortes </p>
+            <a href="javascript:void(0)">
+              <i class="fa fa-user-o" aria-hidden="true"></i>
+              Inicio
+            </a>
+            <a href="javascript:void(0)">
+              <i class="fa fa-laptop" aria-hidden="true"></i>
+              <a href="campanhas.html" >Campanhas</a>
+            </a>
+            <a href="javascript:void(0)">
+              <i class="fa fa-clone" aria-hidden="true"></i>
+              Orçamento
+            </a>
+            <a href="javascript:void(0)">
+              <i class="fa fa-star-o" aria-hidden="true"></i>
+              Mensagens
+            </a>
+            <a href="javascript:void(0)">
+              <i class="fa fa-trash-o" aria-hidden="true"></i>
+              Novas Solicitações
+            </a>
+          </aside>
+          
+          <div class="social">
+            <a href="https://www.linkedin.com/in/florin-cornea-b5118057/" target="_blank">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </div>
+
+    </div>
+    <main class="row jcenter acenter">
+        <div class="card column jcenter acenter">
+            <p class="text2">Doações</p>
+            <p class="text4">Valor total arrecadado</p>
+        </div>
+        <div class="card column jcenter acenter">
+            <p class="text2">Planilha</p>
+            <p class="text4">Para registrar os valores destinados das doações</p>
+        </div>
+        <div class="card column jcenter acenter">
+            <p class="text2">Mensagens</p>
+            <p class="text4">Contato direto com a Fortes</p>
+        </div>
+        
+    </main>
+
+      
+
+        
+
 <script src="../scripts/auth.js"></script>
 </body>
 </html>
