@@ -1,21 +1,22 @@
-.edital_box .inputs{
+.edital_box .inputs {
     width: 100%;
     height: 65%;
     flex-wrap: wrap;
 }
-.edital_box .input_box{
+
+.edital_box .input_box {
     width: 47%;
 }
 
-.edital_box .input_box .input_text{
+.edital_box .input_box .input_text {
     width: 100%;
 }
 
 
-.edital{
+.edital {
     color: var(--secondary);
 }
 
-.btn{
+.btn {
     width: 100% !important;
 }
