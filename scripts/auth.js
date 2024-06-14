@@ -2,13 +2,7 @@
 function checkAuth(){
     const auth = localStorage.getItem('auth');
     const actualPage = window.location.href.split('/').pop().split('.')[0];
-    auth === actualPage ? null : window.location.href = '/pages/login.html';
-}
-
-//redirect to admin/user page if already authenticated
-function isAuthenticated(){
-    const auth = localStorage.getItem('auth');
-    auth ? window.location.href = `/pages/${auth}.html` : null; 
+    auth === actualPage || (actualPage === 'campanhas' && auth === 'admin') ? null : window.location.href = '/pages/login.html';
 }
 
 //logout function
