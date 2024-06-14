@@ -3,6 +3,10 @@
 
 Simple dashboard made for homework
 
+## 🌐 Link
+
+[![Link](https://img.shields.io/badge/Link-blue)](https://fortes-dashboard.netlify.app)
+
 ## 🎮 Tutorial
 
 **Crie uma Conta e em seguida volte a página de login.**

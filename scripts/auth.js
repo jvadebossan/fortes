@@ -1,3 +1,15 @@
+//credentials object with admin and user credentials
+const credentials = {
+    admin:{
+        user: 'Administrador',
+        password: 'adm123'
+    },
+    user:{
+        user: 'Donatario01',
+        password: 'dona123'
+    }
+}
+
 //redirect to login page if not authenticated
 function checkAuth() {
     const auth = localStorage.getItem('auth');
@@ -19,12 +31,12 @@ function login() {
     const password = document.getElementById('password').value;
 
     //check if email and password are correct
-    if (email === 'admin@email.com' && password === '1234') {
+    if (email === credentials.admin.user && password === credentials.admin.password) {
         //set auth to true and redirect to admin page
         localStorage.setItem('auth', 'admin');
         window.location.href = '/pages/admin.html';
     }
-    if (email === 'user@email.com' && password === '1234') {
+    if (email === credentials.user.user && password === credentials.user.password) {
         //set auth to true and redirect to admin page
         localStorage.setItem('auth', 'user');
         window.location.href = '/pages/user.html';
