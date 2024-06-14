@@ -5,14 +5,14 @@ Simple dashboard made for homework
 
 ## 🎮 Tutorial
 
-Crie uma Conta e em seguida volte a página de login.
+**Crie uma Conta e em seguida volte a página de login.**
 
-Login para acessar sua conta:
-> Email: user@email.com
+#### Login para acessar sua conta:
+> Email: user@email.com <br/>
 > Password: 1234
 
-Login para gerenciar as contas cadastradas (ADMIN):
-> Email: admin@email.com
+#### Login para gerenciar as contas cadastradas (ADMIN):
+> Email: admin@email.com <br/>
 > Password: 1234
 
 ## 🔗 Links
