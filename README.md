@@ -19,7 +19,7 @@ Simple dashboard made for homework
 [![figma](https://img.shields.io/badge/figma-purple)](https://www.figma.com/design/WSr3uVxSNkFnP7hYFfTBWd/UI-Day-001---Login-Page-(Community)?node-id=0-1&t=rhiUlrs5CpT91bDH-1 )
 
 ## 🎞 Videos (How to use)
-[![Click to watch](https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg)](https://youtu.be/6aTU1sENPME "Click to watch")
+[![Click to watch](https://i.ytimg.com/vi/6aTU1sENPME/maxresdefault.jpg)](https://youtu.be/6aTU1sENPME "Click to watch")
 
 ## Screenshots (Preview)
 
